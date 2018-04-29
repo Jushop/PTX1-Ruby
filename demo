@@ -1,0 +1,12 @@
+#!/bin/bash
+
+printf "\n"
+printf "ZADANIE:\n" 
+printf "     zadanie 3 Program ekstrahujący "ładny" tekst w języku polskim ze strony internetowej\n\n"
+printf "AUTOR:\n"
+printf "     Justyna Hoppe (nr indeksu - 396331)\n\n"
+printf "PRZYKŁADY URUCHOMIENIA PROGRAMU:\n"
+printf "     ruby program.rb https://www.kwestiasmaku.com/kuchnia_polska/placki/placki_z_dyni_cukinii/przepis.html\n"
+printf "Przykład działania programu dla strony https://www.kwestiasmaku.com/przepis/ciasto-bostonskie \n\n"
+printf "\n=================================\nWYNIK:\n=================================\n\n"
+ruby program.rb https://www.kwestiasmaku.com/przepis/ciasto-bostonskie
